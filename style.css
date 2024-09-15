@@ -7,30 +7,63 @@
 html, body {
     width: 100%;
     height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.box {
-    width: 100%;
-    height: 100%;
-    color: black;
-    /* overflow: hidden; */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    /* list-style: none; */
 }
 
-.background {
-    position: relative;
-    width: 100vw;
+.hero {
+    background-color: greenyellow;  
+    /* change karna hai */
+    background-size: cover;
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: 900;
+}
+
+.features {
+    margin-top: 20px;
+}
+
+.features ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.features li {
+    margin-bottom: 20px;
+}
+
+
+.testimonials p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.pricing {
+    margin-top: 20px;
+}
+
+.pricing ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.pricing li {
+    margin-bottom: 20px;
     background-color: blue;
 }
-
-.overlay {
-    position: absolute;
-    top: 0;
-    width: 100vw;
-    height: 100vh;
-    /* background-color: rgb(152, 122, 167); */
-}
-
 
 
 
