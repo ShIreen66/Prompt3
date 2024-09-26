@@ -99,7 +99,7 @@ nav {
     font-size: 3rem;
 }
 
-/* .hero-img {
+.hero-img {
     width: 40vw;
     height: 40vh;
     display: flex;
@@ -107,6 +107,8 @@ nav {
     align-items: initial;
 }
 
-.hero-img img {
+/* .hero-img img {
     text-shadow: black;
+    margin: -100px 200px -00px 0px  ;
+    transform: rotateY(50deg);
 } */
